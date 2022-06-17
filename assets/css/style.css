@@ -123,6 +123,10 @@ footer {
     color: #3a3a3a;
 }
 
+.socials > li {
+    display: inline;
+}
+
 @media screen and (max-width: 600px) {
     .col-third {
         width: 33%;
