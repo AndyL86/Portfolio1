@@ -1,3 +1,27 @@
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* section design and sizing */
+
+#home {
+    background-color: #dcdcdd;
+}
+
+#product {
+    background-color: #c5c3c6;
+}
+
+#gallery {
+    background-color: #4c5c68;
+}
+
+#contact {
+    background-color: #1985a1;
+}
+
 .container {
     display: block;
     width: 100%;
@@ -15,6 +39,10 @@
 .col-half {
     width: 50%;
 }
+
+/* headings */
+
+
 
 @media screen and (max-width: 600px) {
     .col-third {
