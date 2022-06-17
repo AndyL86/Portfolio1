@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -8,10 +14,17 @@ body p {
     color: #fff;
 }
 
+body section {
+    padding-top: 70px;
+}
+
 /* header and menu */
 
 header {
+    height: 70px;
     background-color: #dcdcdd;
+    width: 100%;
+    position: fixed;
 }
 
 #logo {
@@ -26,6 +39,7 @@ header {
     list-style: none;
     display: inline-block;
     margin: 10px;
+    float: right;
 }
 
 #menu {
@@ -89,6 +103,24 @@ h2 {
     letter-spacing: 4px;
     color: #fff;
     text-decoration: none;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    height: 90px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 @media screen and (max-width: 600px) {
