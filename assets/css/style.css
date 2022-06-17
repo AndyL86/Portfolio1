@@ -1,7 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: sans-serif;
     font-weight: 300;
     color: #fff;
+}
+
+/* header and menu */
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
 }
 
 /* section design and sizing */
@@ -40,6 +52,13 @@ body {
     width: 50%;
 }
 
+.col-4th {
+    width: 25%;
+}
+
+.col-34th {
+    width: 75%;
+}
 /* headings */
 
 
@@ -51,6 +70,10 @@ body {
 
     .col-half {
         width: 50%;
+    }
+
+    .col-4th {
+        width: 100%;
     }
 
 }
