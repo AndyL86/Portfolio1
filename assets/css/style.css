@@ -16,6 +16,15 @@ body {
     margin: 10px;
 }
 
+#menu {
+    font-size: 100%;
+}
+
+#menu li a {
+    color: #46494c;
+    text-decoration: none;
+}
+
 /* section design and sizing */
 
 #home {
@@ -59,9 +68,24 @@ body {
 .col-34th {
     width: 75%;
 }
+
 /* headings */
 
+h1 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: #0b132b;
+    text-decoration: none;
+    font-weight: 600; 
+}
 
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 600px) {
     .col-third {
