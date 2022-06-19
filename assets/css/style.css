@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tiro+Kannada&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,31 +11,34 @@ html {
 }
 
 body p {
-    font-family: sans-serif;
     font-weight: 300;
     color: #fff;
+    padding-top: 15px;
 }
 
 body section {
-    padding-top: 70px;
+    display: 100vh;
+}
+
+h1, h2, p {
+    font-family: 'Tiro Kannada', serif;
 }
 
 /* header and menu */
 
 header {
-    height: 70px;
+    height: 60px;
     background-color: #ebebeb;
     width: 100%;
     position: fixed;
 }
 
 #logo {
-    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: #46494c;
     text-decoration: none;
     font-weight: 600;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 20px;
 }
 
@@ -59,6 +64,10 @@ section {
     height: 100vh;
 }
 
+iframe {
+    padding-top: 10px;
+}
+
 #product {
     background-color: #52489c;
 }
@@ -69,6 +78,10 @@ section {
 
 #contact {
     background-color: #52489c;
+}
+
+#product, #gallery, #contact {
+    padding-top: 75px;
 }
 
 .container {
@@ -100,7 +113,6 @@ section {
 /* headings */
 
 h2 {
-    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
