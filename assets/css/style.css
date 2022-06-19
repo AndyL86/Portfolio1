@@ -22,7 +22,7 @@ body section {
 
 header {
     height: 70px;
-    background-color: #dcdcdd;
+    background-color: #ebebeb;
     width: 100%;
     position: fixed;
 }
@@ -33,6 +33,8 @@ header {
     color: #46494c;
     text-decoration: none;
     font-weight: 600;
+    padding-top: 15px;
+    padding-left: 20px;
 }
 
 #menu li {
