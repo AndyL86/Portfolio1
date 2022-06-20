@@ -65,7 +65,7 @@ section {
 }
 
 iframe {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 #product {
@@ -80,8 +80,8 @@ iframe {
     background-color: #52489c;
 }
 
-#product, #gallery, #contact {
-    padding-top: 75px;
+#product, #contact {
+    padding-top: 65px;
 }
 
 .container {
@@ -139,6 +139,21 @@ footer {
 
 .socials > li {
     display: inline;
+}
+
+/* Gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#gallery > img {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
 }
 
 @media screen and (max-width: 600px) {
