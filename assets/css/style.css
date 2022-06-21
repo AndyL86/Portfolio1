@@ -143,10 +143,16 @@ footer {
 
 /* Gallery */
 
-.gallery-image {
-    object-fit: cover;
-    height: 100%;
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 1px;
+}
+
+#gallery > img {
     width: 100%;
+    display: flex;
 }
 
 @media screen and (max-width: 600px) {
