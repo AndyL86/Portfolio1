@@ -120,6 +120,13 @@ h2 {
     text-align: center;
 }
 
+/* contact form */
+
+#subject {
+    width: 99%;
+    border: 2px solid #3a3a3a;
+}
+
 /* footer */
 
 footer {
