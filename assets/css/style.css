@@ -122,8 +122,18 @@ h2 {
 
 /* contact form */
 
+legend {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 .contact-header {
+    clear: both;
     float: left;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem 1rem 0 1rem;
 }
 
 #enquiry {
@@ -132,7 +142,7 @@ h2 {
 }
 
 input[type=text], input[type="email"], textarea {
-    width: 60%;
+    width: 50%;
     padding: 12px;
     border: 1px solid #ebebeb;
     border-radius: 4px;
@@ -172,9 +182,8 @@ footer {
     column-gap: 1px;
 }
 
-#gallery > img {
-    width: 100%;
-    display: flex;
+.gallery-image {
+    max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {
