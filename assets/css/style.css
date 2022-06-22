@@ -128,15 +128,18 @@ legend {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .contact-header {
-    clear: both;
     text-transform: uppercase;
     color: #fff;
     padding: 1rem 1rem 0 1rem;
     display: inherit;
+}
+
+.contact-box {
+    text-align: center;
 }
 
 .enquiry {
@@ -158,6 +161,10 @@ input[type=text], input[type="email"], textarea {
     color: #ebebeb;
     padding: .5rem;
     margin-left: .5rem;
+  }
+
+  fieldset {
+
   }
 
 /* footer */
