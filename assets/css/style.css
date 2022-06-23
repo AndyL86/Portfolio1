@@ -223,11 +223,15 @@ input[type=text], input[type="email"], textarea {
   }
 
   .contact-building {
-    display: inline-block;
+    width: 100%;
   }
 
   .contact-email{
-    display: inline-block;
+    width: 49%;
+  }
+
+  .contact-phone {
+    width: 49%;
   }
 
 /* footer */
