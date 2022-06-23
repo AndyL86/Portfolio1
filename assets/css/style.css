@@ -222,6 +222,14 @@ input[type=text], input[type="email"], textarea {
     margin-top: .5rem;
   }
 
+  .contact-building {
+    display: inline-block;
+  }
+
+  .contact-email{
+    display: inline-block;
+  }
+
 /* footer */
 
 iframe {
