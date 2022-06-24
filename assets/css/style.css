@@ -181,6 +181,11 @@ section {
   text-align: center;
 }
 
+.benefits li {
+  text-align: center;
+  list-style-type: none;
+}
+
 /* Gallery */
 
 #gallery {
