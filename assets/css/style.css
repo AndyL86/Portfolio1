@@ -242,9 +242,20 @@ hr {
 
 /* contact form */
 
+form {
+  background-color: #6D6A75;
+  margin: 15px;
+  opacity: .9;
+  border-radius: 4px;
+}
+
 #contact {
   background-color: #6D6A75;
   padding-top: 65px;
+  clear: both;
+    background: url(../images/tints4.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 1rem;
 }
 
 iframe {
@@ -272,6 +283,7 @@ legend {
 .enquiry {
   width: 99%;
   border: 2px solid #3a3a3a;
+  border-radius: 4px;
 }
 
 input[type=text],
