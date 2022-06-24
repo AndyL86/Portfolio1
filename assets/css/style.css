@@ -301,6 +301,9 @@ textarea {
   background-color: #BFBDC1;
   color: #46494c;
   padding: .5rem;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .submit-center {
