@@ -11,7 +11,7 @@ html {
 }
 
 body p {
-  font-weight: 300;
+  font-weight: 200;
   color: #fff;
   padding-top: 15px;
 }
@@ -187,7 +187,7 @@ section {
 .benefits, .about-text {
   text-align: center;
   color: #fff;
-  line-height: 3;
+  line-height: 2;
 }
 
 .benefits li {
