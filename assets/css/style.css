@@ -173,6 +173,10 @@ section {
   padding-top: 65px;
 }
 
+#product h2 {
+  padding-top: .5rem;
+}
+
 .about-image {
   width: 100%;
   padding-top: 5rem;
@@ -185,11 +189,16 @@ section {
 .benefits {
   text-align: center;
   color: #fff;
+  line-height: 3;
 }
 
 .benefits li {
   text-align: center;
   list-style-type: none;
+}
+
+.benefits p {
+  padding-bottom: 1.5rem;
 }
 
 /* Gallery */
