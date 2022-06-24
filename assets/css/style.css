@@ -257,10 +257,6 @@ form {
     background-size: cover;
 }
 
-iframe {
-  padding-top: 2rem;
-}
-
 legend {
   text-align: center;
   color: #fff;
@@ -275,6 +271,10 @@ legend {
   display: inherit;
 }
 
+.contact-page-header {
+  background-color: #6D6A75;
+  margin: 15px;
+}
 .contact-box {
   text-align: center;
 }
