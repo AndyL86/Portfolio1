@@ -130,24 +130,10 @@ section {
   height: 100vh;
 }
 
-iframe {
-  padding-top: 2rem;
-}
+/* about page */
 
 #product {
   background-color: #6D6A75;
-}
-
-#gallery {
-  background-color: #37323E;
-}
-
-#contact {
-  background-color: #6D6A75;
-}
-
-#product,
-#contact {
   padding-top: 65px;
 }
 
@@ -190,6 +176,7 @@ h2 {
 /* Gallery */
 
 #gallery {
+  background-color: #37323E;
   column-count: 3;
   object-fit: cover;
   width: 100%;
@@ -201,6 +188,15 @@ h2 {
 }
 
 /* contact form */
+
+#contact {
+  background-color: #6D6A75;
+  padding-top: 65px;
+}
+
+iframe {
+  padding-top: 2rem;
+}
 
 legend {
   text-align: center;
