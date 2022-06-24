@@ -32,7 +32,7 @@ h2 {
 
 h1,
 h2,
-p {
+p, textarea, menu li {
   font-family: 'Tiro Kannada', serif;
 }
 
@@ -175,10 +175,16 @@ section {
 
 .about-image {
   width: 100%;
+  padding-top: 5rem;
+}
+
+.about-text {
+  text-align: center;
 }
 
 .benefits {
   text-align: center;
+  color: #fff;
 }
 
 .benefits li {
