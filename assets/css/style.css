@@ -20,6 +20,16 @@ body section {
   display: 100vh;
 }
 
+/* headings */
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
 h1,
 h2,
 p {
@@ -130,13 +140,6 @@ section {
   height: 100vh;
 }
 
-/* about page */
-
-#product {
-  background-color: #6D6A75;
-  padding-top: 65px;
-}
-
 .container {
   display: block;
   width: 100%;
@@ -163,14 +166,15 @@ section {
   width: 75%;
 }
 
-/* headings */
+/* about page */
 
-h2 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
+#product {
+  background-color: #6D6A75;
+  padding-top: 65px;
+}
+
+.about-image {
+  width: 100%;
 }
 
 /* Gallery */
