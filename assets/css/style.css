@@ -316,22 +316,16 @@ textarea {
     margin: 5px;
     border-radius: 5px;
     text-align: center;
+    opacity: .9;
 }
 
-.contact-email {
-  width: 49%;
+.contact-email, .contact-phone {
+  width: 48%;
   background-color: #6D6A75;
     margin: 5px;
     border-radius: 5px;
     text-align: center;
-}
-
-.contact-phone {
-  width: 49%;
-  background-color: #6D6A75;
-    margin: 5px;
-    border-radius: 5px;
-    text-align: center;
+    opacity: .9;
 }
 
 /* footer */
