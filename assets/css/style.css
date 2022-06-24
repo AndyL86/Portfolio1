@@ -199,6 +199,12 @@ section {
   padding-bottom: 1.5rem;
 }
 
+hr {
+  border-top: 1px solid #3a3a3a;
+  width: 75%;
+  margin: 6px auto;
+}
+
 /* Gallery */
 
 #gallery {
