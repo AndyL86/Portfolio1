@@ -67,7 +67,7 @@ header {
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #46494c;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -177,6 +177,19 @@ h2 {
     text-align: center;
 }
 
+/* Gallery */
+
+#gallery {
+  column-count: 3;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-image {
+  max-width: 100%;
+}
+
 /* contact form */
 
 legend {
@@ -261,19 +274,6 @@ footer {
     display: inline;
 }
 
-/* Gallery */
-
-#gallery {
-    column-count: 3;
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-}
-
-.gallery-image {
-    max-width: 100%;
-}
-
 @media (max-width: 700px) {
     .menu-button-container {
       display: flex;
@@ -329,6 +329,10 @@ footer {
 
     .col-4th {
         width: 100%;
+    }
+
+    .contact-email {
+      display: flex;
     }
 
 }
