@@ -181,8 +181,8 @@ section {
 
 .about-image {
   width: 90%;
-  padding-top: 5rem;
-  margin: 15px;
+  margin: 30px 15px 15px 15px;
+  padding-left: .5rem;
 }
 
 .benefits, .about-text {
