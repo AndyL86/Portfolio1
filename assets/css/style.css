@@ -180,9 +180,9 @@ section {
 }
 
 .about-image {
-  width: 100%;
+  width: 90%;
   padding-top: 5rem;
-  margin: 0 10px 0;
+  margin: 15px;
 }
 
 .benefits, .about-text {
