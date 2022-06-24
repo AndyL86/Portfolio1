@@ -15,9 +15,9 @@ body p {
   color: #fff;
   padding-top: 2px;
   margin: 15px;
-    border-radius: 5px;
-    opacity: .9;
-    background-color: #6D6A75;
+  border-radius: 5px;
+  opacity: .9;
+  background-color: #6D6A75;
 }
 
 body section {
@@ -35,7 +35,9 @@ h2 {
 
 h1,
 h2,
-p, textarea, menu li {
+p,
+textarea,
+menu li {
   font-family: 'Tiro Kannada', serif;
   color: #BFBDC1;
 }
@@ -176,15 +178,15 @@ section {
 #product {
   padding-top: 65px;
   clear: both;
-    background: url(../images/tints1.jpeg) no-repeat center center;
-    background-size: cover;
+  background: url(../images/tints1.jpeg) no-repeat center center;
+  background-size: cover;
 }
 
 #product h2 {
   margin: 15px;
-    border-radius: 5px;
-    opacity: .9;
-    background-color: #6D6A75;
+  border-radius: 5px;
+  opacity: .9;
+  background-color: #6D6A75;
 }
 
 .about-image {
@@ -193,7 +195,8 @@ section {
   padding-left: .5rem;
 }
 
-.benefits, .about-text {
+.benefits,
+.about-text {
   text-align: center;
   color: #fff;
   line-height: 2;
@@ -204,7 +207,7 @@ section {
   list-style-type: none;
 }
 
-.benefits p{
+.benefits p {
   padding-bottom: 1.5rem;
 }
 
@@ -261,8 +264,8 @@ form {
   background-color: #6D6A75;
   padding-top: 65px;
   clear: both;
-    background: url(../images/tints4.jpg) no-repeat center center;
-    background-size: cover;
+  background: url(../images/tints4.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 legend {
@@ -285,6 +288,7 @@ legend {
   border-radius: 5px;
   opacity: .9;
 }
+
 .contact-box {
   text-align: center;
 }
@@ -323,19 +327,20 @@ textarea {
 .contact-building {
   width: 100%;
   background-color: #6D6A75;
-    margin: 5px;
-    border-radius: 5px;
-    text-align: center;
-    opacity: .9;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: .9;
 }
 
-.contact-email, .contact-phone {
+.contact-email,
+.contact-phone {
   width: 48%;
   background-color: #6D6A75;
-    margin: 5px;
-    border-radius: 5px;
-    text-align: center;
-    opacity: .9;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: .9;
 }
 
 /* footer */
@@ -433,7 +438,7 @@ footer {
   #header {
     width: 100%;
   }
-  
+
   .col-third {
     width: 33%;
   }
