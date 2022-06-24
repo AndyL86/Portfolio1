@@ -177,6 +177,10 @@ section {
   width: 100%;
 }
 
+.benefits {
+  text-align: center;
+}
+
 /* Gallery */
 
 #gallery {
