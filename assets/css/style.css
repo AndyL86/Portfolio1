@@ -335,12 +335,16 @@ textarea {
 
 .contact-email,
 .contact-phone {
+  display: inline-block;
   width: 48%;
   background-color: #6D6A75;
-  margin: 5px;
   border-radius: 5px;
   text-align: center;
   opacity: .9;
+}
+
+.contact-email {
+  margin: 1px 5px 1px 5px;
 }
 
 /* footer */
