@@ -335,8 +335,7 @@ textarea {
 
 .contact-email,
 .contact-phone {
-  display: inline-block;
-  width: 48%;
+  display: inline;
   background-color: #6D6A75;
   border-radius: 5px;
   text-align: center;
