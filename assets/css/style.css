@@ -21,10 +21,6 @@ body p {
   background-color: #6D6A75;
 }
 
-body section {
-  display: 100vh;
-}
-
 /* headings */
 
 h2 {
@@ -368,6 +364,11 @@ iframe {
   width: 100%;
   height: 20rem;
   margin-top: .5rem;
+}
+
+#social-media {
+  background-color: #ebebeb;
+  height: auto;
 }
 
 footer {

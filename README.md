@@ -29,7 +29,7 @@ The site is targeted towards potential and existing customers based around the B
 * Give the user an opportunity to contact the business to make an enquiry
 
 ### **Color Scheme**
-I chose a color scheme that was in keeping with the Flukey Feathers color scheme (#990000) whilst also being  easy to read for the user, through the use of back ground images and the navigation / footer color schemes, opting for a smokey white background (#f5f5f5) and dark grey text (#2d302e) in areas where these weren't used. I used (https://userway.org/) to check the contrasting colors worked well.
+I chose a neutral colour scheme grey colour scheme to deliver a sense of prestige in keeping with the company branding (#6D6A75) and making viewing easy for the user, opting for an off-white/grey background on the product and contact pages (#e2e3e4) and light grey text for h2 headers (#6D6A75) and a standard white for the section paragraphs (#fff). I used (https://userway.org/) to check the contrasting colors worked well.
  * Main background
  ![Main Background color scheme](docs/read-me/contrast-check-main-bg.png)
  * Navigation and Footer
@@ -50,12 +50,10 @@ I chose a color scheme that was in keeping with the Flukey Feathers color scheme
 
 ![Footer](docs/read-me/footer.png)
  * Located at the bottom of the page
- * Its red background is designed to be eye catching and in line with Flukey Feathers' club color scheme
- * The footer has links to FLukey Feathers facebook page
- * There are also links to the Badminton England site and game rules site for users to explore their interest further
- * As the page size decreases the Badminton England and game rules links center on the page so they fit better in a tall narrow layout
- * Links to Badminton England and game rules are underlined to show they are 2 seperate links as they looked like 4 links (1 per word) before this was applied
- * The facebook link had its underlining removed as it was obvious this was a link
+ * Its white background is designed to be clear and simple to navigate
+ * The footer has links to the Dark Glass Window Tinting social media pages on facebook, instagram and twitter displayed by icons
+ * For ease of navigation as the mouse is hovered over an icon, the icon colour changes to lilac so the user can see the icon is being selected
+ * As the page size decreases the Social Media icons stay central on the footer
 
  ## **Features on Individual Pages**
  ### **About Us (Home) Page**
