@@ -466,8 +466,9 @@ footer {
   }
 
   .contact-email, .contact-phone {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    margin: 2px;
   }
 
   .contact-email {
