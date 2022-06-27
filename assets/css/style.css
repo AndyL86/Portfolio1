@@ -47,7 +47,7 @@ menu li {
 
 header {
   height: 60px;
-  background-color: #ebebeb;
+  background-color: #e2e3e4;
   width: 100%;
   position: fixed;
   opacity: 0.7;
@@ -55,7 +55,7 @@ header {
 }
 
 #header a:hover {
-  background-color: #000;
+  background-color: rgb(246, 244, 244);
 }
 
 #header a.active {
