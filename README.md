@@ -29,11 +29,11 @@ The site is targeted towards potential and existing customers based around the B
 * Give the user an opportunity to contact the business to make an enquiry
 
 ### **Color Scheme**
-I chose a neutral colour scheme grey colour scheme to deliver a sense of prestige in keeping with the company branding (#6D6A75) and making viewing easy for the user, opting for an off-white/grey background on the product and contact pages (#e2e3e4) and light grey text for h2 headers (#6D6A75) and a standard white for the section paragraphs (#fff). I used (https://userway.org/) to check the contrasting colors worked well.
+I chose a neutral colour scheme grey colour scheme for the product and contact pages to deliver a sense of prestige in keeping with the company branding (#6D6A75) and making viewing easy for the user, opting for an off-white/grey text on the product and contact pages (#e2e3e4) a light grey text for h2 headers (#6D6A75) and a standard white for the section paragraphs (#fff). For the navigation and footer menus I chose an off-white for the background (#E2E3E4) and a charcoal grey for the text (#46494C). For the footer I chose a slightly darker off-white background (#EBEBEB) with a dark grey colour (#3A3A3A) for the icon colours. I used (https://webaim.org/resources/contrastchecker/) to check the contrasting colors worked well.
  * Main background
- ![Main Background color scheme](docs/read-me/contrast-check-main-bg.png)
+ ![Main Background color scheme](INSERT PICTURES)
  * Navigation and Footer
- ![Navigation and Footer](docs/read-me/contrast-check-nav-footer.png)
+ ![Navigation and Footer](INSERT PICTURES)
 
 ## **Features Common to all Pages**
 ### **Navigation Bar**
