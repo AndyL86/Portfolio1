@@ -444,6 +444,11 @@ footer {
     width: 100%;
   }
 
+  .row-contact {
+    display: block;
+    padding-left: 7px;
+  }
+
   .col-third {
     width: 33%;
   }
