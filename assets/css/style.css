@@ -152,6 +152,12 @@ section {
   flex-wrap: wrap;
 }
 
+.row-contact {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 7px;
+}
+
 .col-third {
   width: 33%;
 }
@@ -457,6 +463,10 @@ footer {
   .contact-email, .contact-phone {
     display: flex;
     flex-direction: column;
+  }
+
+  .contact-email {
+    font-size: small;
   }
 
   #logo {
