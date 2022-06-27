@@ -18,24 +18,15 @@ The site is targeted towards potential and existing customers based around the B
 ## **Planning Stage**
 
 ### **Target Audience**
-* Users who are looking to take up badminton as a sport to play
-* Users who are looking to join a badminton club
-* Users who are looking to switch badminton clubs
+* Users who are looking for a window tinting service around Bradford
+* Users who are looking to learn more about window tinting
+* Users who are looking to understand the benefits of window tinting
 
 ### **Site Aims**
-* Educate the user on the health benefits of playing badminton
-* Show the user the benefits of playing badminton with Flukey Feathers
-* Provide the user with information that tells them when and where Flukey Feathers plays
-* Give the user an opportunity to contact the club to join them
-
-### **Wireframes**
-To help organise how I was going to approach building the site I first got my initial ideas down onto some wireframe to help guide me through the basic layout of the site as I implemented various features. 
-Links to the different pages:
-* [Homepage (About)](docs/wireframes/home-about.png)
-* [Club Sessions page](docs/wireframes/club-sessions.png)
-* [Join Us page](docs/wireframes/join-us.png)
-
-There was some deviation from the initial design as I implemented each page to improve the user experience but in general I stayed true to the initial design.
+* Educate the user on the legalities of window tinting
+* Show the user the various options available for tinting percentages
+* Provide the user with information that tells them who Dark Glass tinting are and where to find it
+* Give the user an opportunity to contact the business to make an enquiry
 
 ### **Color Scheme**
 I chose a color scheme that was in keeping with the Flukey Feathers color scheme (#990000) whilst also being  easy to read for the user, through the use of back ground images and the navigation / footer color schemes, opting for a smokey white background (#f5f5f5) and dark grey text (#2d302e) in areas where these weren't used. I used (https://userway.org/) to check the contrasting colors worked well.
