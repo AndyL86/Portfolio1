@@ -36,29 +36,15 @@ I chose a color scheme that was in keeping with the Flukey Feathers color scheme
  ![Navigation and Footer](docs/read-me/contrast-check-nav-footer.png)
 
 ## **Features Common to all Pages**
-### **Hero Image**
-
-![Hero Image](assets/images/hero-image.webp)
-* Designed to catch the eye when loading the page
-* In theme with the Flukey Feathers club it features a shuttle cock on a badminton court
-* A smaller version of the hero image is used for mobile layouts so it take up less screen real estate and doesn't dominate the page
-
-### **Club Logo**
-
-![Club Logo](assets/images/flukey-feathers-logo.webp)
-* Located within the hero image the logo so the user knows the site is about Flukey Feathers
-* It also serves as a link back to the home page
-* The logo scales on mobile screens as the screen size gets smaller so it doesn't dominate the hero image
-
 ### **Navigation Bar**
 
 ![Nav Bar](docs/read-me/nav-bar.png)
- * Located directly below the hero image
- * Its red background is designed to be eye catching and in line with Flukey Feathers' club color scheme
- * For ease of navigation as the mouse is hovered over a link, the background turns black so the user can see what they are selecting
- * The current page a user is on as a link that is underlined
- * As the page size decreases the nav bar is fully responsive and at the mobile level displays as a block vertically rather than horizontally
- * The navigation bar is designed as a journey for the user going from left to right as they explore the reasons why they should join Flukey Feathers before finally deciding to join the club
+ * Located at the top of the page
+ * Its partially transparent grey background is designed to give a sense of style and prestige to the brand
+ * For ease of navigation as the mouse is hovered over a link, the background is highlighted so the user can see which menu they are selecting
+ * As the page size decreases the nav bar is fully responsive and at the mobile level displays as a burger menu
+ * As the burger menu icon is selected a block menu appears and the burger menu icon transforms into a menu close X icon
+ * The navigation bar is designed to be a non disruptive visually pleasing experience that allows the user to easily and clearly navigate the business website
 
  ### **Footer**
 
