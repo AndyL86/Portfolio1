@@ -54,6 +54,14 @@ header {
   z-index: 1;
 }
 
+#header a:hover {
+  background-color: #000;
+}
+
+#header a.active {
+  text-decoration: underline;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
