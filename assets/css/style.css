@@ -50,6 +50,7 @@ header {
   width: 100%;
   position: fixed;
   opacity: 0.7;
+  z-index: 1;
 }
 
 .menu {
@@ -453,8 +454,9 @@ footer {
     width: 49%;
   }
 
-  .contact-email {
+  .contact-email, .contact-phone {
     display: flex;
+    flex-direction: column;
   }
 
   #logo {
@@ -467,7 +469,4 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
-
-  .contact-email, .contact-phone {
-    flex-direction: column;
-  }}
+}
