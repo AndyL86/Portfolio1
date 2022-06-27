@@ -321,7 +321,6 @@ textarea {
 
 .submit-center {
   text-align: center;
-  margin-top: .5rem;
 }
 
 .contact-building {
@@ -468,4 +467,7 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
-}
+
+  .contact-email, .contact-phone {
+    flex-direction: column;
+  }}
