@@ -15,7 +15,7 @@ body p {
   font-weight: 200;
   color: #fff;
   padding-top: 2px;
-  margin: 5px;
+  margin: 4px;
   border-radius: 5px;
   opacity: .9;
   background-color: #6D6A75;
@@ -221,6 +221,7 @@ section {
   text-align: center;
   list-style-type: none;
   font-size: 1.5vw;
+  opacity: .9;
 }
 
 .benefits p {
@@ -342,7 +343,7 @@ textarea {
 .contact-building {
   width: 100%;
   background-color: #6D6A75;
-  margin: 5px;
+  margin: 1px;
   border-radius: 5px;
   text-align: center;
   opacity: .9;
