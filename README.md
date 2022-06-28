@@ -89,12 +89,12 @@ The Dark Glass Window Tinting site is currently at the minimum viable product st
 I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools to test responsiveness. I have also asked users to review on mobiles on both Android and IOS and had no issues fed back. 
 
 ### **Responsiveness**
-![Am I Responsive?](docs/read-me/am-i-responsive.png) 
-Whilst the site was designed as Desktop First extensive testing has been done to ensure the site is fully responsive on smaller screens. As well as tesing in dev tools and using various mobile devices I also used (http://ami.responsivedesign.is/) to check for responsiveness. No website breaking issues were found.
-As the site changed in size I identified 4 key widths where changes needed to be made.
+![Am I Responsive?](docs/read-me/responsive.png) 
+I opted for a desktop first design approach with extensive testing to allow responsive sizing on smaller devices. The Chrome browser built in Dev tool was used for responsive testing as well as using various mobile/tablet devices. I also used (http://ami.responsivedesign.is/) to check there were no issues across all screen sizes. No website breaking issues were found.
+
 1. **992px (Laptops)**
-  * About US Page
-    * Left and right text areas made to take up more page width
+  * Product Page
+    * 'About us' and 'Benefits' text areas made to take up more page width
     * Middle image pushed to under text areas
   * Club Sessions Page
     * Session times boxes made to be wider so they weren't so squished on the page
