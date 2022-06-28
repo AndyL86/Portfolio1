@@ -63,10 +63,11 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
  * As the page size decreases the text area decreases along with the font size. As the page size decreases to fit mobiles the about us and benefits become block and display as a list, making usability on smaller screens easier
 
 ### **Gallery Page**
-![Gallery](INSERT PIC)
-* The gallery will provide supporting images to the user so they can see what various sessions look like
-* The gallery is valuable as the user can easily identify whether the club is something they are looking for or not
-* The user can visually see the Flukey Feathers is an inclusive, friendly club to aid in their decision making process
+![Gallery](docs/read-me/gallery.png)
+* The gallery will provide informative images to the user so they can see examples of previous window tinting applications
+* The gallery is valuable as the user can easily identify the quality of work provided by Dark Glass Window Tinting
+* The user can visually see the process and finished product provided by Dark Glass Window Tinting
+* The page is responsive and is displayed in a grid layout, when scaling to mobile the images stack on top of each other
 
 ### **Contact Us Page**
 ![Contact Us](docs/read-me/contact-us.png)
@@ -81,8 +82,7 @@ The Dark Glass Window Tinting site is currently at the minimum viable product st
 * 
 * 
  * 
- * A news page where bulletins can be posted for upcoming 
- * An upcoming events page where 
+ * A news page where bulletins can be posted for upcoming offers and new product releases
  * An affiliate links page to various 
 
  ## **Testing**

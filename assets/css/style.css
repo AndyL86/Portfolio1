@@ -129,9 +129,6 @@ header {
 
 /* section design and sizing */
 
-section {
-  height: 100vh;
-}
 
 .container {
   display: block;
@@ -225,35 +222,20 @@ hr {
 
 /* Gallery */
 
-/* #gallery {
-  background-color: #37323E;
-  column-count: 3;
-  object-fit: cover;
-  width: 100%;
-  height: 100vh;
-}
-
-.gallery-image {
-  max-width: 100%;
-} */
-
 
 #gallery {
   background-color: #37323E;
   padding-top: 4rem;
-  height: auto;
 }
 .gallery-container {
-    height: 400px;
     overflow: hidden;
 }
-.gallery-thing {
+.gallery-section {
     background-color: #37323E
 }
 .gallery-image {
-    flex-shrink: 0;
-    min-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
     margin: .5rem;
 }
 .gallery-display {
@@ -270,11 +252,6 @@ hr {
   flex: 50%;
   padding: 0 4px;
 }
-
-/* .gallery-column img {
-  margin-top: 8px;
-  vertical-align: middle;
-} */
 
 /* contact form */
 
@@ -457,10 +434,6 @@ footer {
     max-width: 50%;
   }
 
-  .col-half {
-    width: 100%;
-  }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -474,14 +447,10 @@ footer {
     height: auto;
   }
 
-  /* #gallery {
-    width: 100%;
-    display: block;
-  } */
-
   iframe {
     max-width: 100%;
     height: auto;
+    margin: 0 50px 0 50px;
   }
 
   #header {
@@ -508,16 +477,9 @@ footer {
     width: 49%;
   }
 
-  .gallery-image {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    margin: 0;
-}
-
   .contact-email,
   .contact-phone {
-    display: inline;
+    display: inline;	
     flex-direction: column;
   }
 
@@ -533,5 +495,4 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
-
 }
