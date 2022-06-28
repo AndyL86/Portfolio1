@@ -13,7 +13,7 @@ html {
 body p {
   font-size: 1.2vw;
   font-weight: 200;
-  color: #fff;
+  color: #FAFAFA;
   padding-top: 2px;
   margin: 4px;
   border-radius: 5px;
@@ -196,7 +196,7 @@ section {
 .benefits,
 .about-text {
   text-align: center;
-  color: #fff;
+  color: #FAFAFA;
   line-height: 2;
 }
 
@@ -275,16 +275,9 @@ form {
   background-size: cover;
 }
 
-legend {
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  padding: .5rem;
-}
-
 .contact-header {
   text-transform: uppercase;
-  color: #fff;
+  color: #FAFAFA;
   padding: 1rem 1rem 0 1rem;
   display: inherit;
 }
