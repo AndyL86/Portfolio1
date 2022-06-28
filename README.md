@@ -58,9 +58,9 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
  ## **Features on Individual Pages**
  ### **Product (Home) Page**
  ![Product](docs/read-me/product-page.png)
- * The About Us section will allow the user to see the benefits of playing badminton, encouraging the user to consider badminton as a form of exercise
- * It also shows the user the benefits of joining Flukey Feathers as their choice of club to play badminton and continue to explore the site
- * As the page size decreases the text area takes up more of the page with the images being pushed below. Finally as the page size reaches mobiles the benefits become block and display as a list, making usability on smaller screens easier
+ * The About Us section will allow the user to understand the varieties of tinting options available and make an informed choice on the level of tint they require
+ * It also shows the user the benefits of window tinting
+ * As the page size decreases the text area decreases along with the font size. As the page size decreases to fit mobiles the about us and benefits become block and display as a list, making usability on smaller screens easier
 
 ### **Gallery Page**
 ![Gallery](INSERT PIC)
