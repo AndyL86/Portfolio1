@@ -31,9 +31,9 @@ The site is targeted towards potential and existing customers based around the B
 ### **Color Scheme**
 I chose a neutral colour scheme grey colour scheme for the product and contact pages to deliver a sense of prestige in keeping with the company branding (#55525B) and making viewing easy for the user, opting for an off-white/grey text on the product and contact pages (#FAFAFA). For the navigation and footer menus I chose an off-white for the background (#E2E3E4) and a charcoal grey for the text (#46494C). For the header and footer I chose a slightly darker off-white background (#EBEBEB) with a dark grey colour (#3A3A3A) for the menu text and icon colours. I used (https://webaim.org/resources/contrastchecker/) to check the contrasting colors worked well.
  * Main background
- ![Main Background color scheme](INSERT PICTURES)
+ ![Main Background color scheme](docs/read-me/webaim-contrast-checker-pass-body.png)
  * Navigation and Footer
- ![Navigation and Footer](INSERT PICTURES)
+ ![Navigation and Footer](docs/read-me/webaim-contrast-checker-pass-header-footer.png)
 
 ## **Features Common to all Pages**
 ### **Navigation Bar**
@@ -56,28 +56,20 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
  * As the page size decreases the Social Media icons stay central on the footer
 
  ## **Features on Individual Pages**
- ### **About Us (Home) Page**
- ![About Us](docs/read-me/about-us.png)
+ ### **Product (Home) Page**
+ ![Product](docs/read-me/product-page.png)
  * The About Us section will allow the user to see the benefits of playing badminton, encouraging the user to consider badminton as a form of exercise
  * It also shows the user the benefits of joining Flukey Feathers as their choice of club to play badminton and continue to explore the site
  * As the page size decreases the text area takes up more of the page with the images being pushed below. Finally as the page size reaches mobiles the benefits become block and display as a list, making usability on smaller screens easier
 
- ### **Club Sessions Page**
-![Club Sessions](docs/read-me/club-sessions.png)
- * The club sessions page shows the user when Flukey Feathers plays, where they play, how much it costs and what skill level it caters for
- * This allows users to choose which session may be best for them with their interests and skill levels
- * A background image is used for the club sessions to draw the user in. It is in line of the Flukey Feathers scheme, with a red court surface covered with losts of Shuttlecocks
- * As the page resizes, the club sessions area is fully responsive, eventually displaying in a block list rather than horizontally to aide mobile navigation
- * Beneath the club sessions is an interactive map of the venue Flukey Feathers play at, allowing users to input this into their navigation systems to get directions
-
 ### **Gallery Page**
-![Gallery](docs/read-me/gallery.png)
+![Gallery](INSERT PIC)
 * The gallery will provide supporting images to the user so they can see what various sessions look like
 * The gallery is valuable as the user can easily identify whether the club is something they are looking for or not
 * The user can visually see the Flukey Feathers is an inclusive, friendly club to aid in their decision making process
 
-### **Join Us Page**
-![Join Us](docs/read-me/join-us.png)
+### **Contact Us Page**
+![Contact Us](docs/read-me/contact-us.png)
 * This page will allow the user to join Flukey Feathers
 * The user will be asked to submit their personal details as well as their skill level and what sessions they would be interested in joining
 * This will allow Flukey Feathers to then discuss with the user which sessions would be appropriate to them
