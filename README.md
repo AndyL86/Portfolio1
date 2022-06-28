@@ -70,20 +70,20 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
 
 ### **Contact Us Page**
 ![Contact Us](docs/read-me/contact-us.png)
-* This page will allow the user to join Flukey Feathers
-* The user will be asked to submit their personal details as well as their skill level and what sessions they would be interested in joining
-* This will allow Flukey Feathers to then discuss with the user which sessions would be appropriate to them
-* A background image is used behind the form. This is the same as on the club sessions page for consistency and is inline with the Flukey Feathers club ethos
+* This page will allow the user to make an enquiry with Dark Glass Window Tinting
+* The user will be asked to submit their First name, Last name, Email address and their enquiry
+* This will allow Dark Glass Window Tinting to get in touch with the customer to provide a quotation for their enquiry
+* A background image is used behind the form so the user. This image displays the tinting process so the user can understand how the process works
 * The page is fully responsive with the form scaling to fit mobile screens
 
 ## **Future Features to be Added**
-The Flukey Feathers site is currently at the minimum viable product stage. Future features to be added to increase site usability include:
-* A Burger Menu Icon added to the Nav bar on mobile devices that produces a drop down menu when tapped so the Nav bar takes up less space
-* A members only area
- * A subs page where members can track what they have paid / what they owe
- * A news page where bulletins can be posted for upcoming league matches / changes to session venues / times
- * An upcoming events page where members can sign up to Badminton England events. E.g. Yonex All English Championships in Birmningham
- * An affiliate links page to various badminton resources / service such as online shops where members can get exclusive discounts through Flukey Feathers
+The Dark Glass Window Tinting site is currently at the minimum viable product stage. Future features to be added to increase site usability include:
+* 
+* 
+ * 
+ * A news page where bulletins can be posted for upcoming 
+ * An upcoming events page where 
+ * An affiliate links page to various 
 
  ## **Testing**
 I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools to test responsiveness. I have also asked users to review on mobiles on both Android and IOS and had no issues fed back. 
