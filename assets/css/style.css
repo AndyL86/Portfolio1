@@ -18,7 +18,7 @@ body p {
   margin: 4px;
   border-radius: 5px;
   opacity: .9;
-  background-color: #6D6A75;
+  background-color: #55525B;
 }
 
 /* headings */
@@ -118,16 +118,6 @@ header {
 #menu-toggle:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
-}
-
-#logo {
-  text-transform: uppercase;
-  color: #46494c;
-  text-decoration: none;
-  font-weight: 600;
-  padding-top: .5rem;
-  padding-left: 1rem;
-  font-size: 2rem;
 }
 
 .menu li a {
