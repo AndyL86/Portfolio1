@@ -194,6 +194,7 @@ header {
 .about-text {
   text-align: center;
   color: #FAFAFA;
+  margin: 10px;
 }
 
 .benefits ul {
@@ -222,6 +223,8 @@ hr {
 
 .legal {
   width: 100%;
+  text-align: center;
+  margin: 20px;
 }
 
 
