@@ -120,62 +120,59 @@ I opted for a desktop first design approach with extensive testing to allow resp
 
 
 ### **Lighthouse**
-![Light House](docs/read-me/lighthouse.png)
+![Light House](INSERT IMAGE)
 
-All pages have been tested with lighthouse for both mobile and desktop versions, with all pages scoring above 90 for all sections.
-Lighthouse was very useful for picking up poor practices and helped with the following: 
-1. Accessability
-  * Use of aria-labels on links in the navigation bar
-  * Highlighting duplicate unique names for labels on the Join Us page which could have confused screen readers
-1. Performance
-  * Converted all images to webp. Webp is a new image format which is significantly smaller in file size to png and jpg and will be the new standard for images in the future. Before converting my images i checked (https://caniuse.com/webp) for compatability. It is compatable on all browsers expect for IE 11 and is compatable on macOS 11 Big Sur and later. This gave what I felt to be an acceptable level of compatability to warrant its use
-  * Resized some images to be smaller so their file size was more acceptable when loading pages
-1. SEO
-  * Added in more detailed meta tags as well as some missing alt tags on images
+All pages have been tested with lighthouse for both mobile and desktop versions
 
   ### **Validators**
 ![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)
 
   All HTML files were run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. 
-  No errors were found, however there were some warnings:
+
 1. gallery.html
- * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. - this is through design choice as the gallery page is consisting of images only 
+ * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. - this is through design choice as the gallery page is consisting of images only
+
+ ![html_validation](docs/read-me/validator-errors.png)
+
+- No errors were returned when passing through the official css validator
+
+![css_validation](docs/read-me/css-validator.png)
+ 
 
  ## **Bugs**
-There is one know bug on the website. On the gallery page when reducing to 2 collums as the page resizes there is a noticeable amount of white space between the images and the footer. This happens on Chrome and Edge browsers but displays as it should on Firefox. Safari mobile also seems to be unaffected. As a fix, the 2 collums were removed and the site now goes straight to 1 collumn when resizing. The gallery background was also change on 1 collumn to the same as the footer to hide the 1 pixel gap that was created and make the transition from gallery pictures to footer seemless
 
-![Gallery Bug](docs/read-me/gallery-bug.png)
+
+![Gallery Bug](INSERT IMAGE)
 
 ## **Other Changes**
 I removed all \<hr\> tags from the site and replaced them with \<div\>, setting a style in CSS to create the same effect. This is because \<hr\> is now defined in semantic terms, rather than presentational terms. For my site I use \<hr\> as presentational only
 
 ## **Deployment**
-I deployed the website on GitHub pages via the following:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-1. From the projects repository go to the **settings** tab
-1. On the left hand menu near the bottom click on the **pages** link
-1. Under **Source** click on the button "None" which will produce a drop down
-1. Click on **Main** and then click **Save**
-1. The following message will appear:  **Your site is ready to be published**
-1. After a few minutes the site will be published and the message will change to **Your site is published**
 
-You can access the live site via the following link [Flukey Feathers Badminton Club](https://gibbo101.github.io/flukey-feathers-badminton/)
+In the GitHub repository, navigate to the Settings tab
+In the pages section, go to select branch drop-down menu, select Main
+Once the Main branch has been selected, a link to the site is provided
+
+The live link can be found here - (INSERT LINK)
+
+You can access the live site via the following link INSERT LINK
 
 ## **Technology Used**
-Flukey Feathers was built using HTML5 and CSS3
+Dark Glass Window Tinting was built using HTML5 and CSS3
 
 ## **Credits**
 
 ### **Content**
-* [Flukey Feathers](https://flukeyfeathers.co.uk/) all information on the website is in relation to Flukey Feathers badminton club and was used with their permission
-* The text in the **Why Play Badminton?** section on the about us page was taken from [everyone active](https://www.everyoneactive.com/content-hub/activities/9-reasons-to-try-badminton/)
+* 
+* 
 * The project was influenced by the Code Institutes code along project called Love running and coders coffee house. Whilst I have tried to deviate as much as possible and do my own thing, there may be some similarities in the code.
 * For general research when tackling something I required support on I generally relied on W3 Schhols for information
 * Icons used are from [Font Awesome](https://fontawesome.com/)
 
 ### **Media**
-* The hero image and background images were taken from [Pexels](https://www.pexels.com/)
-* All other images are property of Flukey Feathers badminton club and was used with their permission
+* The background and gallery images were taken from [Pexels](https://www.pexels.com/)
 
 ### **Thanks**
  * [Richard Wells](https://github.com/D0nni387) - Code Institute mentor who's advice and guidance supported me in the completion of this project
