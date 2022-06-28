@@ -241,6 +241,7 @@ hr {
 #gallery {
   background-color: #37323E;
   padding-top: 4rem;
+  height: auto;
 }
 .gallery-container {
     height: 400px;
@@ -466,7 +467,6 @@ footer {
 
   #product,
   #contact {
-    width: 100%;
     height: auto;
   }
 
@@ -476,9 +476,8 @@ footer {
   } */
 
   iframe {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
-    margin: 0 50px 0 50px;
   }
 
   #header {
@@ -487,7 +486,6 @@ footer {
 
   .row-contact {
     display: block;
-    padding-left: 7px;
   }
 
   .col-third {
@@ -515,9 +513,8 @@ footer {
 
   .contact-email,
   .contact-phone {
-    display: inline-flex;
+    display: inline;
     flex-direction: column;
-    margin: 2px;
   }
 
   .contact-email {
@@ -525,12 +522,12 @@ footer {
   }
 
   .contact-building {
-    max-width: 50%;
-    float: left;
+    max-width: 100%;
   }
 
   .gallery-column {
     flex: 100%;
     max-width: 100%;
   }
+
 }
