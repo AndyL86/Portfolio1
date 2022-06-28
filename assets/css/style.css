@@ -457,6 +457,10 @@ footer {
     max-width: 50%;
   }
 
+  .col-half {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
