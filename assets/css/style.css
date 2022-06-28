@@ -458,6 +458,8 @@ footer {
 
   .row-contact {
     display: block;
+    margin: 5px;
+    padding-right: 0.5rem;
   }
 
   .col-third {
@@ -478,6 +480,7 @@ footer {
 
   .contact-email,
   .contact-phone {
+    width: 100%;
     display: inline;	
     flex-direction: column;
   }
