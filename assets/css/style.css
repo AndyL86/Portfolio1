@@ -23,6 +23,10 @@ body p {
 
 /* headings */
 
+title {
+  font-size: 2.5rem;
+}
+
 h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -442,6 +446,11 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+
+#product, #gallery, #contact {
+  display: inline;
+}
+
   #header {
     width: 100%;
   }
@@ -474,13 +483,7 @@ footer {
   }
 
   .contact-email {
-    font-size: small;
-  }
-
-  #logo {
-    font-size: x-large;
-    display: flex;
-    padding-top: 0.5rem;
+    font-size: .4rem;
   }
 
   .gallery-column {
