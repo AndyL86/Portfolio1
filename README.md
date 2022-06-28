@@ -94,39 +94,29 @@ I opted for a desktop first design approach with extensive testing to allow resp
 
 1. **992px (Laptops)**
   * Product Page
-    * 'About us' and 'Benefits' text areas made to take up more page width
-    * Middle image pushed to under text areas
-  * Club Sessions Page
-    * Session times boxes made to be wider so they weren't so squished on the page
+    * 'About us' and 'Benefits' text areas made to take up half a page each
+    * Tinting scale image pushed under 'About us'
+  * Gallery Page
+    * Images arranged into columns of 3
   * Footer
-    * Footer links centralised to look better on a smaller screen
+    * Footer social media links centralised to look better on all sized screens
+  * Contact Us
+    * Google map and contact form set side by side to keep sizing in proportion as to not look overbearing  
 1. **768px (Tablets)**
   * All Pages
-    * Text size reduced to 15px to allow text to fit their areas better whilst still not affecting readability of the site
-    * Font size for Nav bar adjusted to stop it breaking at 603px wide
-  * Club Sessions Page
-    * Session times boxes resized to cover the entire screen to keep boxes well sized and readable
+    * Burger menu added to header to correct text overlap
+    * Font sizing set to rem sizes to allow for responsive sizing
+  * Product Page
+    * About us and Benefits stacked on top to make text readable
   * Gallery Page
-    * Collums reduced from 4 to 3 so images appeared larger on the smaller screen, maintaining useability
+    * Image columns reduced to stacked images
+  * Contact Us
+    * Google map and contact form stacked to allow for better visibility
+    * Email address and Contact phone number set to full width to correct positioning issue  
 1. **600px (Mobiles)**
-  * All Pages
-    * Hero Image replaced with mobile version. Reducing height and using a smaller version of the original image to decrease loading times as well as take up less screen height space
-    * Flukey Feathers logo position changed to be closer to the top left. Also resized image size to a % value rather than fixed allowing it to scale to the page size and not dominate the hero image
-    * Navigation Bar changed to display as a block list rather than horizantal to stop it breaking on smaller screens
-  * About Us Page
-    * Description boxes now display as block rather than side by side and given a width of 90%
-    * Why play headers bottom margin also slightly tweaked for mobiles
-  * Club Sessions Page
-    * Session times boxes now display in a block list and their borders changed to top and bottom rather than each side
-  * Gallery Page
-    * Collumns reduced to 2
-  * Join Us Page
-    * Radio inputs set to display block to vertically display
+  
 1. **400px (Smaller screens)**
-  * About Us Page
-    * Images made smaller to fit screen
-  * Gallery Page
-    * Collums reduced to 1 to maintain decent image size
+  
 
 
 ### **Lighthouse**
