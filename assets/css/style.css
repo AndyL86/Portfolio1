@@ -235,17 +235,21 @@ hr {
   background-color: #37323E;
   padding-top: 4rem;
 }
+
 .gallery-container {
-    overflow: hidden;
+  overflow: hidden;
 }
+
 .gallery-section {
-    background-color: #37323E
+  background-color: #37323E
 }
+
 .gallery-image {
-    width: 100%;
-    height: auto;
-    margin: .5rem;
+  width: 100%;
+  height: auto;
+  margin: .5rem;
 }
+
 .gallery-display {
   padding-top: 2rem;
 }
@@ -489,7 +493,7 @@ footer {
   .contact-email,
   .contact-phone {
     width: 100%;
-    display: inline;	
+    display: inline;
     flex-direction: column;
   }
 
