@@ -49,8 +49,8 @@ header {
   z-index: 1;
 }
 
-#header a:hover {
-  background-color: rgb(246, 244, 244);
+#header li a:hover {
+  color: #9484c1;
 }
 
 .menu {

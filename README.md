@@ -33,11 +33,12 @@ The site uses a single page scroller format for compatibility across various dev
 * Give the user an opportunity to contact the business to make an enquiry
 
 ### **Color Scheme**
-I chose a neutral colour scheme grey colour scheme for the product and contact pages to deliver a sense of prestige in keeping with the company branding (#55525B) and making viewing easy for the user, opting for an off-white/grey text on the product and contact pages (#FAFAFA). For the navigation and footer menus I chose an off-white for the background (#E2E3E4) and a charcoal grey for the text (#46494C). For the header and footer I chose a slightly darker off-white background (#EBEBEB) with a dark grey colour (#3A3A3A) for the menu text and icon colours. I used (https://webaim.org/resources/contrastchecker/) to check the contrasting colors worked well.
+I chose a neutral colour scheme grey colour scheme for the product and contact pages to deliver a sense of prestige in keeping with the company branding (#55525B) and making viewing easy for the user, opting for an off-white/grey text on the product and contact pages (#FAFAFA). For the navigation and footer menus I chose an off-white for the background (#E2E3E4) and a charcoal grey for the text (#46494C). For the header and footer I chose a slightly darker off-white background (#EBEBEB) with a dark grey colour (#3A3A3A) for the menu text and icon colours. For the gallery page I used a darker grey (#37323E) than the rest of the pages to help the user identify the page seperations.I used (https://webaim.org/resources/contrastchecker/) to check the contrasting colors worked well, as the gallery pages only has images I was unable to use the contrast checker.
  * Main background
  ![Main Background color scheme](docs/read-me/webaim-contrast-checker-pass-body.png)
  * Navigation and Footer
  ![Navigation and Footer](docs/read-me/webaim-contrast-checker-pass-header-footer.png)
+
 
 ## **Features Common to all Pages**
 ### **Navigation Bar**
@@ -45,7 +46,7 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
 ![Nav Bar](docs/read-me/nav-bar.png)
  * Located at the top of the page
  * Its partially transparent grey background is designed to give a sense of style and prestige to the brand
- * For ease of navigation as the mouse is hovered over a link, the background is highlighted so the user can see which menu they are selecting
+ * For ease of navigation when the mouse is hovered over a link, the background is highlighted so the user can see which menu they are selecting
  * As the page size decreases the nav bar is fully responsive and at the mobile level displays as a burger menu
  * As the burger menu icon is selected a block menu appears and the burger menu icon transforms into a menu close X icon
  * The navigation bar is designed to be a non disruptive visually pleasing experience that allows the user to easily and clearly navigate the business website
