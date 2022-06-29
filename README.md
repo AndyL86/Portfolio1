@@ -46,7 +46,7 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
 ![Nav Bar](docs/read-me/nav-bar.png)
  * Located at the top of the page
  * Its partially transparent grey background is designed to give a sense of style and prestige to the brand
- * For ease of navigation when the mouse is hovered over a link, the background is highlighted so the user can see which menu they are selecting
+ * For ease of navigation when the mouse is hovered over a link, the text is highlighted so the user can see which menu they are selecting
  * As the page size decreases the nav bar is fully responsive and at the mobile level displays as a burger menu
  * As the burger menu icon is selected a block menu appears and the burger menu icon transforms into a menu close X icon
  * The navigation bar is designed to be a non disruptive visually pleasing experience that allows the user to easily and clearly navigate the business website
@@ -65,6 +65,7 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
  ![Product](docs/read-me/product-page.png)
  * The About Us section will allow the user to understand the varieties of tinting options available and make an informed choice on the level of tint they require
  * It also shows the user the benefits of window tinting
+ * The product page also includes a section dedicated to the legal aspects with a link to an external site for more information
  * As the page size decreases the text area decreases along with the font size. As the page size decreases to fit mobiles the about us and benefits become block and display as a list, making usability on smaller screens easier
 
 ### **Gallery Page**
@@ -84,11 +85,8 @@ I chose a neutral colour scheme grey colour scheme for the product and contact p
 
 ## **Future Features to be Added**
 The Dark Glass Window Tinting site is currently at the minimum viable product stage. Future features to be added to increase site usability include:
-* 
-* 
- * 
  * A news page where bulletins can be posted for upcoming offers and new product releases
- * An affiliate links page to various 
+ 
 
  ## **Testing**
 I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools to test responsiveness. I have also asked users to review on mobiles on both Android and IOS and had no issues fed back. 
@@ -98,30 +96,31 @@ I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools
 I opted for a single page desktop first design approach with extensive testing to allow responsive sizing on smaller devices. The Chrome browser built in Dev tool was used for responsive testing as well as using various mobile/tablet devices. I also used (http://ami.responsivedesign.is/) to check there were no issues across all screen sizes. No issues were found.
 
 1. **992px (Laptops)**
+
   * Product Page
     * 'About us' and 'Benefits' text areas made to take up half a page each
     * Tinting scale image pushed under 'About us'
   * Gallery Page
-    * Images arranged into columns of 3
+    * Images arranged into columns of 3, this proved difficult and required alot of reworking and changing images to make it function correctly and stay within the section boundaries
   * Footer
     * Footer social media links centralised to look better on all sized screens
   * Contact Us
     * Google map and contact form set side by side to keep sizing in proportion as to not look overbearing  
 1. **768px (Tablets)**
+- This is the mobile/tablet version with images stacked on top of each other
+
+![responsive design on mobile/tablet]()
   * All Pages
     * Burger menu added to header to correct text overlap
     * Font sizing set to rem sizes to allow for responsive sizing
   * Product Page
-    * About us and Benefits stacked on top to make text readable
+    * About us, Benefits and Legal stacked on top to make text readable
   * Gallery Page
     * Image columns reduced to stacked images
+    * This provided many obstacles to overcome and code was researched from multiple sources to allow the images to fit correctly 
   * Contact Us
     * Google map and contact form stacked to allow for better visibility
     * Email address and Contact phone number set to full width to correct positioning issue  
-1. **600px (Mobiles)**
-  
-1. **400px (Smaller screens)**
-  
 
 
 ### **Lighthouse**
