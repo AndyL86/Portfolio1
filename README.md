@@ -3,6 +3,8 @@
 Dark Glass Window Tinting is a site that is designed to provide useful information to help people understand the benefits of tinting vehicle windows.
 The site is targeted towards potential and existing customers based around the Bradford area who are looking for a professional and established vehicle tinting service. 
 
+The site uses a single page scroller format for compatibility across various devices without over complicating my code. This gives site a much smoother flow and keeps in line with the intended prestigeous, modern look.
+
 ![responsive design picture](docs/read-me/responsive.png) 
 
 ## Table of contents
@@ -92,7 +94,7 @@ I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools
 
 ### **Responsiveness**
 ![Am I Responsive?] 
-I opted for a desktop first design approach with extensive testing to allow responsive sizing on smaller devices. The Chrome browser built in Dev tool was used for responsive testing as well as using various mobile/tablet devices. I also used (http://ami.responsivedesign.is/) to check there were no issues across all screen sizes. No website breaking issues were found.
+I opted for a single page desktop first design approach with extensive testing to allow responsive sizing on smaller devices. The Chrome browser built in Dev tool was used for responsive testing as well as using various mobile/tablet devices. I also used (http://ami.responsivedesign.is/) to check there were no issues across all screen sizes. No issues were found.
 
 1. **992px (Laptops)**
   * Product Page
