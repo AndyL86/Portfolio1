@@ -33,7 +33,6 @@ h2 {
 h1,
 h2,
 p,
-textarea,
 menu li {
   font-family: 'Tiro Kannada', serif;
   color: #FAFAFA;
@@ -316,7 +315,7 @@ textarea {
 .enquire {
   width: 6rem;
   background-color: #BFBDC1;
-  color: #46494c;
+  color: #252527;
   padding: .5rem;
   margin: 10px;
   border-radius: 5px;
