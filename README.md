@@ -92,7 +92,7 @@ The Dark Glass Window Tinting site is currently at the minimum viable product st
 I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools to test responsiveness. I have also asked users to review on mobiles on both Android and IOS and had no issues fed back. 
 
 ### **Responsiveness**
-![Am I Responsive?] 
+![responsive design picture](docs/read-me/responsive.png)
 I opted for a single page desktop first design approach with extensive testing to allow responsive sizing on smaller devices. The Chrome browser built in Dev tool was used for responsive testing as well as using various mobile/tablet devices. I also used (http://ami.responsivedesign.is/) to check there were no issues across all screen sizes. No issues were found.
 
 1. **Above 1100px (Desktops/Laptops)**
@@ -164,13 +164,11 @@ I removed my \<span\> elements and replaced these with \<div\> elements. This wa
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 
-In the GitHub repository, navigate to the Settings tab
-In the pages section, go to select branch drop-down menu, select Main
-Once the Main branch has been selected, a link to the site is provided
+1. In the GitHub repository, navigate to the Settings tab
+1. In the pages section, go to select branch drop-down menu, select Main
+1. Once the Main branch has been selected, a link to the site is provided
 
-The live link can be found here - (INSERT LINK)
-
-You can access the live site via the following link INSERT LINK
+The live link can be found here - [Dark Glass Window Tinting](https://andyl86.github.io/Portfolio1/)
 
 ## **Technology Used**
 Dark Glass Window Tinting was built using HTML5 and CSS3
