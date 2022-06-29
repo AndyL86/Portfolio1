@@ -3,6 +3,8 @@
 Dark Glass Window Tinting is a site that is designed to provide useful information to help people understand the benefits of tinting vehicle windows.
 The site is targeted towards potential and existing customers based around the Bradford area who are looking for a professional and established vehicle tinting service. 
 
+![responsive design picture](docs/read-me/responsive.png) 
+
 ## Table of contents
 1. [**Planning Stage**](#planning-stage)
 1. [**Features Common to all Pages**](#features-common-to-all-pages)
@@ -89,7 +91,7 @@ The Dark Glass Window Tinting site is currently at the minimum viable product st
 I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools to test responsiveness. I have also asked users to review on mobiles on both Android and IOS and had no issues fed back. 
 
 ### **Responsiveness**
-![Am I Responsive?](docs/read-me/responsive.png) 
+![Am I Responsive?] 
 I opted for a desktop first design approach with extensive testing to allow responsive sizing on smaller devices. The Chrome browser built in Dev tool was used for responsive testing as well as using various mobile/tablet devices. I also used (http://ami.responsivedesign.is/) to check there were no issues across all screen sizes. No website breaking issues were found.
 
 1. **992px (Laptops)**
@@ -120,17 +122,23 @@ I opted for a desktop first design approach with extensive testing to allow resp
 
 
 ### **Lighthouse**
-![Light House](INSERT IMAGE)
+All pages have been tested with lighthouse for both mobile and desktop devices with all scores acheiving above 90, however my performance score for mobile was 3 points lower than desktop
 
-All pages have been tested with lighthouse for both mobile and desktop versions
+- Tested Lighthouse on mobile
+![desktop_lighthouse](docs/read-me/lighthouse-mobile.png)
+
+- Tested Lighthouse on desktop
+![desktop_lighthouse](docs/read-me/lighthouse-desktop.png)
+
 
   ### **Validators**
 ![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)
 
-  My HTML file was run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. 
+  My HTML file was run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. My HTML code flagged up 1 error in regards to my gallery section not having a title, this was intentional for my design
 
-1. gallery.html
- * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. - this is through design choice as the gallery page is consisting of images only
+
+1. index.html
+ * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 
  ![html_validation](docs/read-me/validator-errors.png)
 
