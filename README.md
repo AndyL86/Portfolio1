@@ -95,8 +95,10 @@ I have tested the site in the Chrome, Firefox and Edge browsers, using dev tools
 ![Am I Responsive?] 
 I opted for a single page desktop first design approach with extensive testing to allow responsive sizing on smaller devices. The Chrome browser built in Dev tool was used for responsive testing as well as using various mobile/tablet devices. I also used (http://ami.responsivedesign.is/) to check there were no issues across all screen sizes. No issues were found.
 
-1. **992px (Laptops)**
+1. **Above 1100px (Desktops/Laptops)**
+- This is the desktop version with images stacked on top of each other
 
+![responsive design on desktop](docs/read-me/desktop-responsive.png)
   * Product Page
     * 'About us' and 'Benefits' text areas made to take up half a page each
     * Tinting scale image pushed under 'About us'
@@ -106,10 +108,10 @@ I opted for a single page desktop first design approach with extensive testing t
     * Footer social media links centralised to look better on all sized screens
   * Contact Us
     * Google map and contact form set side by side to keep sizing in proportion as to not look overbearing  
-1. **768px (Tablets)**
-- This is the mobile/tablet version with images stacked on top of each other
+1. **Below 800px (Tablets/Mobiles)**
+- This is the tablet/mobile version with images stacked on top of each other
 
-![responsive design on mobile/tablet]()
+![responsive design on tablet/mobile](docs/read-me/mobile-responsive.png)
   * All Pages
     * Burger menu added to header to correct text overlap
     * Font sizing set to rem sizes to allow for responsive sizing
@@ -124,7 +126,9 @@ I opted for a single page desktop first design approach with extensive testing t
 
 
 ### **Lighthouse**
-All pages have been tested with lighthouse for both mobile and desktop devices with all scores acheiving above 90, however my performance score for mobile was 3 points lower than desktop
+All pages have been tested with lighthouse for both mobile and desktop devices with all scores acheiving above 90, however my performance score for mobile was 3 points lower than desktop. Testing through lighthouse was extremely useful for highlighting areas where best practice can be followed
+
+- All images were converted to png from jpg which drastically improved the performance score
 
 - Tested Lighthouse on mobile
 ![desktop_lighthouse](docs/read-me/lighthouse-mobile.png)
@@ -136,26 +140,25 @@ All pages have been tested with lighthouse for both mobile and desktop devices w
   ### **Validators**
 ![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)
 
-  My HTML file was run through (https://validator.w3.org/) and my CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard. My HTML code flagged up 1 error in regards to my gallery section not having a title, this was intentional for my design
+  My HTML file was run through (https://validator.w3.org/) and returned 1 error in regards to my gallery section not having a title, this was intentional for my design. My CSS file was run through (https://jigsaw.w3.org/css-validator/) to ensure all code meets the correct standard, no errors were found.  
 
-
+- HTML validator results
 1. index.html
  * Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 
  ![html_validation](docs/read-me/validator-errors.png)
 
-- No errors were returned when passing through the official css validator
+- CSS validator results
 
 ![css_validation](docs/read-me/css-validator.png)
  
 
  ## **Bugs**
-
-
-![Gallery Bug](INSERT IMAGE)
+### Gallery Bug
+Throughout the coding and testing process I was faced with an issue which caused my gallery images to overlap each other and other sections. This became very time consuming and through research and the excellent support of my mentor and peers I was able to create a functional gallery section, which involved deleting my HTML, CSS code and image files and starting over with a simpler code and resized images to allow for a more functional and responsive image gallery.
 
 ## **Other Changes**
-I removed all \<hr\> tags from the site and replaced them with \<div\>, setting a style in CSS to create the same effect. This is because \<hr\> is now defined in semantic terms, rather than presentational terms. For my site I use \<hr\> as presentational only
+I removed my \<span\> elements and replaced these with \<div\> elements. This was a result of running my code through validators which highlighted the \<p\> elements contained cannot be used with a \<span\> element.
 
 ## **Deployment**
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -175,14 +178,15 @@ Dark Glass Window Tinting was built using HTML5 and CSS3
 ## **Credits**
 
 ### **Content**
-* 
-* 
-* The project was influenced by the Code Institutes code along project called Love running and coders coffee house. Whilst I have tried to deviate as much as possible and do my own thing, there may be some similarities in the code.
-* For general research when tackling something I required support on I generally relied on W3 Schhols for information
-* Icons used are from [Font Awesome](https://fontawesome.com/)
+* Font was sourced from Google Fonts (https://fonts.google.com/)
+* Color schemes were sourced through Coolors (https://coolors.co/)
+* Some similarities to the Code Institues coders coffee house and Love Running project may occur throughout the code, I have implented my own variations to this code 
+* W3C was used for various problem solving and coding research (https://w3.org)
+* Icons used are from Font Awesome (https://fontawesome.com/)
 
 ### **Media**
-* The background and gallery images were taken from [Pexels](https://www.pexels.com/)
+* The background and gallery images were taken from Pexels(https://www.pexels.com/)
 
 ### **Thanks**
- * [Richard Wells](https://github.com/D0nni387) - Code Institute mentor who's advice and guidance supported me in the completion of this project
+ * Richard Wells (https://github.com/D0nni387) - Code Institute mentor, without his patience and support I would not have been able to complete my project to a standard that I am happy with
+ * 
